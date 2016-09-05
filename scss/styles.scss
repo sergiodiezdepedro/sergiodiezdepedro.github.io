@@ -1,0 +1,43 @@
+@import 'https://fonts.googleapis.com/css?family=Secular+One|Ubuntu';
+$font-titles: 'Secular One', sans-serif;
+$font-basic: 'Ubuntu', sans-serif;
+$font-size: 1em;
+$color-light: #F5F5F5;
+body {
+    background-image: url("../img/back.jpg");
+}
+.wrapper {
+    margin: 7em auto;
+    text-align: center;
+    width: 75%;
+    h1 {
+        font-family: $font-titles;
+        font-size: $font-size * 5;
+        color: $color-light;
+        text-shadow: 2px 2px 6px #000;
+        margin-bottom: 0.5em;
+    }
+    .round {
+        border-radius: 100px;
+        border: solid 6px $color-light;
+    }
+    .badges {
+        margin-top: 2.5em;
+    }
+    .iconos {
+        display: inline-block;
+        margin-right: 1em;
+        &:hover {
+            -webkit-transform: rotateY(360deg) rotateZ(360deg);
+            transform: rotateY(360deg) rotateZ(360deg);
+            -webkit-transition: all 2s ease-out;
+            transition: all 2s ease-out;
+        }
+    }
+    .motto {
+        color: $color-light;
+        font-family: $font-basic;
+        margin-top: 1.5em;
+        font-size: 2em;
+    }
+}
