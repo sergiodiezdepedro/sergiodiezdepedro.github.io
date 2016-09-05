@@ -1,6 +1,6 @@
-# URL de páginas en github.io
+# URL de mis páginas en github.io
 
-A continuación señalo las direcciones de páginas disponibles de algunos de mis repositorios en GitHub
+A continuación señalo las direcciones de las páginas de algunos de mis repositorios en GitHub:
 
 ## https://sergiodiezdepedro.github.io/
 
